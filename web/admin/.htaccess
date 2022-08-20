@@ -1,0 +1,4 @@
+AuthName "Admin Page"
+AuthType Basic
+AuthUserFile /project/web/admin/.htpasswd
+require valid-user
