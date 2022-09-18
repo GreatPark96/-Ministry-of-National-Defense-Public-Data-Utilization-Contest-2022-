@@ -86,7 +86,4 @@
 </nav>
 </div>
 
-
-
-    
   <div class="main">

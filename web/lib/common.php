@@ -1,6 +1,5 @@
 <?php
 
-    
     // 필터의 버전을 가져오는 함수 
     function get_filter_info()
     {
@@ -20,8 +19,5 @@
         mysqli_close($db_con);
         return $filter_info ;
     }
-
-    
-
 
 ?>

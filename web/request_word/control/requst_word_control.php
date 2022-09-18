@@ -35,12 +35,9 @@
     mysqli_query($db_con, "set session character_set_results=utf8;");
     mysqli_query($db_con, "set session character_set_client=utf8;");
 
-
-
     $sql = "INSERT INTO user_request(id, military_id, name, word, prohibit, value) VALUES('".$table_index."','".$data["military_id"]."','".$data["name"]."','".$data["word"]."','".$data["prohibit"]."','".$data["value"]."')";
     
     $result = mysqli_query($db_con, $sql);
-
 
     if ($result)
     {
@@ -63,7 +60,5 @@
         echo mysqli_error($db_con);
         
     }
-    mysqli_close($db_con);
-
-   
+    mysqli_close($db_con);   
 ?>

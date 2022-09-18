@@ -10,7 +10,5 @@
         <?php
         exit(-1);
     }
-
-
     require_once "/project/web/filter_search/control/filter_search_control.php";
 ?>

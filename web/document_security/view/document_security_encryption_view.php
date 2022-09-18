@@ -8,7 +8,6 @@
     </p>
 </div>
 
-
 <form action="action/document_security_encryption_action.php" method="post" enctype="multipart/form-data">      
   <table class = 'content_table'>
     <tr>
@@ -85,10 +84,4 @@
     </tr>
         
   </table>   
-</form>
-
-        
-
-
-
-                    
+</form>                   

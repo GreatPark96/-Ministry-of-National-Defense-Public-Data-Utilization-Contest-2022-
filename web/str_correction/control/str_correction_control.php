@@ -35,7 +35,6 @@
 
     $out = morpheme_analysis($input_str); // 형태소 분리
     
-    
     $json_result = array(); // ajax, json으로 보내기 위한 데이터
 
     // military 필터
